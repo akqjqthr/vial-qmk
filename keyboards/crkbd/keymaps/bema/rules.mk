@@ -6,7 +6,7 @@ RGB_MATRIX_ENABLE   = yes
 VIA_ENABLE          = no     # Enable VIA
 VIAL_ENABLE         = no     # Enable VIAL
 OLED_ENABLE = no
-# OLED_DRIVER = SSD1306
+OLED_DRIVER = SSD1306
 # LTO_ENABLE          = yes
 
 # from default
