@@ -97,7 +97,7 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
         case LSFT_T(KC_F):
             return 200;
         case LSFT_T(KC_J):
-            return 130;
+            return 150;
         case LCTL_T(KC_D):
             return 250;
         case LCTL_T(KC_K):
@@ -142,7 +142,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|-------------------+-------------------+-------------------+-------------------+-------------------|                                         |-----------------+-------------------+-------------------+-------------------+-------------------|
                     KC_Z,       ALGR_T(KC_X),           TD(TD_C),           TD(TD_V),               KC_B,                                                       KC_N,       ALGR_T(KC_M),            KC_COMM,     ALGR_T(KC_DOT),LT(BUTTON, KC_SLSH),
   //|-------------------+-------------------+-------------------+-------------------+-------------------|                                         |-----------------+-------------------+-------------------+-------------------+-------------------|
-                                                                   LT(MEDIA, KC_ESC),   LT(NUM2, KC_SPC),   LT(MOUSE, KC_TAB),     LT(SYM, KC_ENT), LT(NUM, KC_BSPC),    LT(FUN, KC_DEL)
+                                                                   LT(MOUSE, KC_ESC),   LT(NUM2, KC_SPC),   LT(MEDIA, KC_TAB),     LT(SYM, KC_ENT), LT(NUM, KC_BSPC),    LT(FUN, KC_DEL)
   //                                                            |-------------------+-------------------+--------------------+--------------------+-----------------+-------------------|
   ),
 
